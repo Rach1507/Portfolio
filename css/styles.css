@@ -1,7 +1,7 @@
 body {
   font-family: 'Lexend', sans-serif;
-  /* font-family: 'Space Mono', monospace;
-  font-family: 'Montserrat', sans-serif; */
+   /* font-family: 'Space Mono', monospace; */
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 /* .big-headings {} */
@@ -13,9 +13,24 @@ body {
 
 /* Navbar section */
 .navbar {
-  margin: 0 3% 7%;
-}
+  /* margin: 0 5% 7%; */
+  color: #ffffff;
+   background-color: #A825ED;
+font-size: 1.2rem;
+padding-left: 3%;
+padding-right: 4%;
+padding-bottom: 0;
+margin-bottom: 0;
 
+
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navbar-nav{
+  margin-right:  0;
+}
 /* title section */
 #title {
   text-align: left;
@@ -238,6 +253,8 @@ text-align: center;
   height: 60%; */
   opacity: 50%;
 }
+
+
 #projects{
     background-color: #ffffff;
     color: #A825ED;
@@ -248,19 +265,10 @@ text-align: center;
 
 }
 
-.shadow{
+/* .shadow{
   box-shadow: 0 .5rem 1rem  #888888;
-   /* rgba(0,0,0,.15); */
-}
-
-#contact {
-  background-color: #A825ED;
-
-}
-.contact-heading{
-   color: #ffffff;
-}
-
+   /* rgba(0,0,0,.15);
+} */
 
 
 
@@ -339,7 +347,39 @@ margin-block-start: 0;
 #certifications{
   background-color:  #A825ED;
   color: #ffffff;
-  /* background-color: #ffffff; */
+
+}
+
+
+
+#contact {
+  background-color: #A825ED;
+
+}
+#contact .container-fluid{
+  padding: 7% 12%;
+}
+
+
+.form{
+  margin-top: 3%;
+
+margin-left: 26%;
+padding: 3% 3%;
+
+}
+.contact-heading{
+   color: #ffffff;
+}
+
+.profile-icons{
+  color: #A825ED;
+  margin: 2%;
+}
+
+#footer {
+  text-align: center;
+  /* padding: 3% 15%; */
 }
 
 @media (max-width:1028px) {
@@ -358,6 +398,18 @@ margin-block-start: 0;
     padding: 12%  8% 12% 4%;
     border-radius: 50%;
   }
+  #contact .container-fluid{
+    margin: 2% 0;
+  }
+
+  .form{
+      margin-left: 0;
+    }
+
+  #nav-tab{
+    padding-left: 0;
+  }
+
 /* background-position: right;
      background-image: url("C:\\Users\\User\\Desktop\\web dev\\Portfolio-21\\images\\levels.png");
    background-repeat: no-repeat;
